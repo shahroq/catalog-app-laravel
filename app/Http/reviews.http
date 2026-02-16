@@ -1,0 +1,43 @@
+# Set global headers for all requests?
+@header Accept: application/json
+@header Content-Type: application/json
+
+@baseUrl = http://localhost:8000
+@baseUrlModule = {{baseUrl}}/api/v1/reviews
+@id = 1
+
+### get items
+GET {{baseUrlModule}} HTTP/1.1
+Accept: application/json
+
+
+### get item
+GET {{baseUrlModule}}/{{ id }} HTTP/1.1
+Accept: application/json
+
+
+### create item
+POST {{baseUrlModule}} HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "product_id": 1,
+    "content": "New review 1",
+    "rating": 3
+}
+
+### update item
+PATCH {{baseUrlModule}}/{{ id }} HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "content2": "updated review 444",
+    "rating": 3,
+    "status": "APPROVED"
+}
+
+### delete item
+DELETE {{baseUrlModule}}/{{ id }} HTTP/1.1
+Accept: application/json

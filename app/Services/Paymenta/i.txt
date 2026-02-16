@@ -1,0 +1,2 @@
+Paymenta: test with ServiceProvider, Manager, and couple of drivers
+    $ php artisan vendor:publish --tag=config

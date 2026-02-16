@@ -1,0 +1,209 @@
+{
+  "version": "1.1",
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "admin@email.com",
+      "role": "ADMIN",
+      "created_at": "2025-10-27T08:30:00Z",
+      "updated_at": "2025-10-27T08:30:00Z",
+      "created_by": 1,
+      "updated_by": 1
+    },
+    {
+      "id": 2,
+      "name": "Brian Lee",
+      "email": "editor@email.com",
+      "role": "EDITOR",
+      "created_at": "2025-10-27T08:35:00Z",
+      "updated_at": "2025-10-27T08:35:00Z",
+      "created_by": 1,
+      "updated_by": 1
+    },
+    {
+      "id": 3,
+      "name": "Catherine Park",
+      "email": "user@email.com",
+      "role": "USER",
+      "created_at": "2025-10-27T08:40:00Z",
+      "updated_at": "2025-10-27T08:40:00Z",
+      "created_by": 1,
+      "updated_by": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "description": "Latest smartphone with advanced camera and fast processor.",
+      "price": 999,
+      "category": "Electronics, Mobile",
+      "in_stock": true,
+      "created_at": "2025-10-27T09:00:00Z",
+      "updated_at": "2025-10-27T09:00:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 2,
+      "name": "Wireless Earbuds",
+      "description": "Noise-cancelling earbuds with clear sound quality.",
+      "price": 249,
+      "category": "Electronics, Audio",
+      "in_stock": true,
+      "created_at": "2025-10-27T09:10:00Z",
+      "updated_at": "2025-10-27T09:10:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 3,
+      "name": "Gaming Console",
+      "description": "Next-gen gaming console with ultra-fast load times.",
+      "price": 499,
+      "category": "Electronics, Gaming",
+      "in_stock": false,
+      "created_at": "2025-10-27T09:20:00Z",
+      "updated_at": "2025-10-27T09:20:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 4,
+      "name": "Smart Speaker",
+      "description": "Voice-controlled speaker for music and smart home commands.",
+      "price": 199,
+      "category": "Electronics, Audio, Smart Home",
+      "in_stock": true,
+      "created_at": "2025-10-27T09:30:00Z",
+      "updated_at": "2025-10-27T09:30:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 5,
+      "name": "Tablet",
+      "description": "Lightweight tablet perfect for browsing and streaming.",
+      "price": 399,
+      "category": "Electronics, Mobile, Tablet",
+      "in_stock": true,
+      "created_at": "2025-10-27T09:40:00Z",
+      "updated_at": "2025-10-27T09:40:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "content": "Camera quality is amazing.",
+      "rating": 5,
+      "status": "approved",
+      "created_at": "2025-10-27T10:00:00Z",
+      "updated_at": "2025-10-27T10:00:00Z",
+      "created_by": 3,
+      "updated_by": 3
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "content": "Battery lasts long but heats up sometimes.",
+      "rating": 4,
+      "status": "pending",
+      "created_at": "2025-10-27T10:05:00Z",
+      "updated_at": "2025-10-27T10:05:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 3,
+      "product_id": 2,
+      "content": "Noise cancelling works great.",
+      "rating": 5,
+      "status": "approved",
+      "created_at": "2025-10-27T10:10:00Z",
+      "updated_at": "2025-10-27T10:10:00Z",
+      "created_by": 3,
+      "updated_by": 3
+    },
+    {
+      "id": 4,
+      "product_id": 2,
+      "content": "Sometimes one earbud loses connection.",
+      "rating": 3,
+      "status": "rejected",
+      "created_at": "2025-10-27T10:15:00Z",
+      "updated_at": "2025-10-27T10:15:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 5,
+      "product_id": 3,
+      "content": "Loads games super fast.",
+      "rating": 5,
+      "status": "approved",
+      "created_at": "2025-10-27T10:20:00Z",
+      "updated_at": "2025-10-27T10:20:00Z",
+      "created_by": 3,
+      "updated_by": 3
+    },
+    {
+      "id": 6,
+      "product_id": 3,
+      "content": "Controller feels a bit cheap.",
+      "rating": 3,
+      "status": "pending",
+      "created_at": "2025-10-27T10:25:00Z",
+      "updated_at": "2025-10-27T10:25:00Z",
+      "created_by": 3,
+      "updated_by": 3
+    },
+    {
+      "id": 7,
+      "product_id": 5,
+      "content": "Perfect size for reading and streaming.",
+      "rating": 5,
+      "status": "approved",
+      "created_at": "2025-10-27T10:30:00Z",
+      "updated_at": "2025-10-27T10:30:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 8,
+      "product_id": 5,
+      "content": "Battery drains faster than expected.",
+      "rating": 4,
+      "status": "pending",
+      "created_at": "2025-10-27T10:35:00Z",
+      "updated_at": "2025-10-27T10:35:00Z",
+      "created_by": 3,
+      "updated_by": 3
+    },
+    {
+      "id": 9,
+      "product_id": 1,
+      "content": "Sleek design, feels premium in hand.",
+      "rating": 5,
+      "status": "approved",
+      "created_at": "2025-10-27T10:40:00Z",
+      "updated_at": "2025-10-27T10:40:00Z",
+      "created_by": 2,
+      "updated_by": 2
+    },
+    {
+      "id": 10,
+      "product_id": 2,
+      "content": "Comfortable fit but loses sound occasionally.",
+      "rating": 4,
+      "status": "pending",
+      "created_at": "2025-10-27T10:45:00Z",
+      "updated_at": "2025-10-27T10:45:00Z",
+      "created_by": 3,
+      "updated_by": 3
+    }
+  ]
+}

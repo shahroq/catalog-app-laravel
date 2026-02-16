@@ -1,0 +1,26 @@
+Envelope Service
+------
+
+usage:
+
+        /*
+        $id = $product->id;
+        if ($id == 1) {
+            // dump($id);
+            throw new NotFoundHttpException('id of 1111?!');
+        }
+        if ($id == 2) {
+            // dump($id);
+            throw new NotFoundResourceException('id of 2222?!');
+        }
+        */
+
+
+        $envelope = Envelope::success($data);
+
+        /*
+        $envelope = Envelope::driver('jsonapi')->success($data);
+        $envelope = Envelope::error('error happened', $data, 400);
+        $envelope = Envelope::driver('jsonapi')->error('error happened', $data, 400);
+        */
+        return response()->json($envelope, 200); // Or omit driver() to use default

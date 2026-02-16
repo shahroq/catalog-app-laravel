@@ -1,0 +1,6 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "semicolon_after_instruction": true
+    }
+}
